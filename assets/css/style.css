@@ -10,12 +10,19 @@
 
 }
 body{
-    margin: 0
+    margin: 0;
 
+    background-image: url("../css/images/Back.jpg");
+
+  
+}
+.background{
+ size:100%;
+ position: center;
 }
 header{
     width: ;
-    background-color: var(--Dark);
+  
 
 
 
@@ -28,6 +35,7 @@ h1{
   
 }
 header ul {
+    margin: 2%;
     text-align: right;
     display: flex;
     flex-wrap: wrap;
@@ -40,16 +48,37 @@ header ul li {
     list-style: none;
     color: var(--Light);
 }
+header ul li:hover{
+    color: blue;
+}
+header ul li:active{
+    font-size: 120%;
+}
+
 h2{
+    top: 10%;
     text-align: center;
     font-size: var(--HF);
+    color:var(--Light)
 
 }
+nav{
+    background-image: url(./images/BGI.jpg);
+    height: 100px;
+}
 h3{
+    margin: 2%;
     font-size: var(--HF);
+    color: var(--Light);
+}
+p{
+    margin: 2%;
+    color: var(--Light);
 }
 h4{
+    margin: 2%;
     font-size: var(--HF);
+    color:var(--Light)
 
 }
 main section{
@@ -58,6 +87,7 @@ margin-left: 10%;
 
 }
 .card-1{
+    background-color: var(--Light);
     margin:2%;
 position: relative;
 width: 90%;
@@ -66,7 +96,7 @@ border: 2px solid var(--Dark);
 
    
 }
-h5{
+a{
     position: absolute;
     top: 56%;
     padding: 30px;
@@ -75,6 +105,12 @@ h5{
     font-size: var(--FS);
     font-size: var(--FS);
     font-weight: 100;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    font-size: 110%;
 }
 div{
   
@@ -88,6 +124,7 @@ div{
     width: 40%;
     height: 150px;
     margin: 2%;
+    background-color: var(--Light);
 
 }
 h6{
@@ -142,7 +179,10 @@ h10{
     font-size: var(--HF);
 }
 footer{
+    margin: 2%;
     margin-top: 80px;
+    color: var(--Light);
+    
 }
 footer ul{
     display: flex;
@@ -156,5 +196,14 @@ footer ul li{
     padding: 5%;
     list-style: none;
     font-size: large;
+    color: var(--Light)
 
+}
+@media screen and (max-width: 768px) {
+    div{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
 }
