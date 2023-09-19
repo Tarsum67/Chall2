@@ -87,7 +87,7 @@ margin-left: 10%;
 
 }
 .card-1{
-    background-color: var(--Light);
+    background-image: url(./images/W3.png);
     margin:2%;
 position: relative;
 width: 90%;
@@ -124,7 +124,7 @@ div{
     width: 40%;
     height: 150px;
     margin: 2%;
-    background-color: var(--Light);
+    background-image: url(./images/W4.jpg);
 
 }
 h6{
