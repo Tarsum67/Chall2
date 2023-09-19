@@ -3,13 +3,20 @@
     --Light: white;
     --HF: xx-large;
     --LB: rgb(141, 192, 243);
+    --FS: medium;
 }
 *{
     box-sizing: border-box;
+
+}
+body{
+    margin: 0
+
 }
 header{
+    width: ;
     background-color: var(--Dark);
-    background-color: var(--Dark);
+
 
 
 
@@ -47,42 +54,107 @@ h4{
 }
 main section{
 
-    margin-left: 100px;
+margin-left: 10%;
 
 }
 .card-1{
+    margin:2%;
 position: relative;
-width: 1250px;
+width: 90%;
 height: 250px;
 border: 2px solid var(--Dark);
 
    
 }
-.card-1 label{
+h5{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 56%;
     padding: 30px;
     border: 2px solid var(--Dark);
     background-color: var(--LB);
-    
-  
+    font-size: var(--FS);
+    font-size: var(--FS);
+    font-weight: 100;
 }
+div{
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card{
+    position: relative;
+    border: 2px solid var(--Dark);
+    width: 40%;
+    height: 150px;
+    margin: 2%;
 
-/* h5{
-font-size: medium;
-margin-bottom: -10px; */
+}
+h6{
+    position: absolute;
+    top: 20%;
+    padding: 30px;
+    border: 2px solid var(--Dark);
+    background-color: var(--LB);
+    font-size: var(--FS);
+    font-weight: 100;
+
+}
+h7{
+    position: absolute;
+    top: 45%;
+    padding: 30px;
+    border: 2px solid var(--Dark);
+    background-color: var(--LB);
+    font-size: var(--FS);
+    font-size: var(--FS);
+    font-weight: 100;
+
+
+}
+h8{
+    
+    position: absolute;
+    top: 45%;
+    padding: 30px;
+    border: 2px solid var(--Dark);
+    background-color: var(--LB);
+    font-size: var(--FS);
+    font-size: var(--FS);
+    font-weight: 100;
+
+
+
+}
+h9{
+    position: absolute;
+    top: 45%;
+    padding: 30px;
+    border: 2px solid var(--Dark);
+    background-color: var(--LB);
+    font-size: var(--FS);
+    font-size: var(--FS);
+    font-weight: 100;
+
+
 }
 h10{
     font-size: var(--HF);
 }
+footer{
+    margin-top: 80px;
+}
 footer ul{
     display: flex;
 flex-wrap: wrap;
-justify-content: right;
+justify-content: center;
 }
 footer ul li{
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 5%;
     list-style: none;
+    font-size: large;
 
 }
